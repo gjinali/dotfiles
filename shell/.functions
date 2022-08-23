@@ -102,7 +102,7 @@ function commit() {
 }
 
 xdebug() {
-   iniFileLocation="/usr/local/etc/php/7.4/php.ini";
+   iniFileLocation="/usr/local/etc/php/8.1/php.ini";
    
    currentLine=`cat $iniFileLocation | grep xdebug.so`
 
