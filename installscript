@@ -24,7 +24,7 @@ rm $HOME/.vim
 ln -s $HOME/.dotfiles/shell/.vim $HOME/.vim
 
 # Symlink the Mackup config
-ln -s $HOME/.dotfiles/macos/.mackup.cfg $HOME/.mackup.cfg
+#ln -s $HOME/.dotfiles/macos/.mackup.cfg $HOME/.mackup.cfg
 
 # Fix missing font characters (see https://github.com/robbyrussell/oh-my-zsh/issues/1906)
 cd ~/.oh-my-zsh/themes/
@@ -91,8 +91,8 @@ brew install --cask qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatc
 echo 'Install php'
 echo '-----------'
 brew tap shivammathur/php
-brew install shivammathur/php/php@8.1
-brew link --overwrite --force php@8.1
+brew install shivammathur/php/php@8.2
+brew link --overwrite --force php@8.2
 
 echo 'Install composer'
 echo '----------------'
@@ -162,7 +162,7 @@ brew install ghostscript
 
 echo 'Install mackup'
 echo '--------------'
-brew install mackup
+#brew install mackup
 
 echo 'Install zsh-autosuggestions'
 echo '---------------------------'
