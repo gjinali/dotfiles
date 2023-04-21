@@ -68,7 +68,7 @@ export PATH="$PATH:$HOME/.rvm/bin"
 . $HOME/.dotfiles/shell/z.sh
 
 # Alias hub to git
-eval "$(hub alias -s)"
+#eval "$(hub alias -s)"
 
 # Sudoless npm https://github.com/sindresorhus/guides/blob/master/npm-global-without-sudo.md
 NPM_PACKAGES="${HOME}/.npm-packages"
@@ -117,3 +117,5 @@ eval "$(fnm env --use-on-cd)"
 # NVM
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+eval $(/opt/homebrew/bin/brew shellenv)

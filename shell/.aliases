@@ -86,4 +86,4 @@ alias php-log="open ~/.config/valet/Log/php-fpm.log"
 alias nginx-log="open ~/.config/valet/Log/nginx-error.log"
 
 # Python
-alias py="/usr/local/bin/python3"
+alias py="/opt/homebrew/bin/python3"
