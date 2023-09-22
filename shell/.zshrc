@@ -103,13 +103,12 @@ export PATH="/usr/local/opt/imagemagick@6/bin:$PATH"
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 #copilot
-eval "$(github-copilot-cli alias -- "$0")"
+#eval "$(github-copilot-cli alias -- "$0")"
 
 # fnm
-export PATH="/Users/freek/Library/Application Support/fnm:$PATH"
-eval "`fnm env`"
-
-eval "$(fnm env --use-on-cd)"
+#export PATH="/Users/elvarisgjinali/Library/Application Support/fnm:$PATH"
+#eval "`fnm env`"
+#eval "$(fnm env --use-on-cd)"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
