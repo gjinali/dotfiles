@@ -87,8 +87,8 @@ ssh-add -A 2>/dev/null;
 export XDEBUG_CONFIG="idekey=VSCODE"
 
 # Enable autosuggestions
-#source ~/.dotfiles/misc/oh-my-zsh-custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.dotfiles/misc/oh-my-zsh-custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+#source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Extra paths
 export PATH="/usr/local/sbin:$PATH"
@@ -117,4 +117,4 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-eval $(/opt/homebrew/bin/brew shellenv)
+#eval $(/opt/homebrew/bin/brew shellenv)
